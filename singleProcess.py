@@ -7,8 +7,8 @@ import numpy as np
 from shapely.geometry import Polygon
 import json
 
-resolution = 8
-geoTiff = 'geotiff.tif'
+resolution = 5
+geoTiff = 'abbc_1km.tif'
 geoJsonFileName = "geojson-%s.geojson" % resolution
 
 def hex_to_polygon(hex_id):
